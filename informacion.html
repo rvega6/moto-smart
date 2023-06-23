@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html ng-app="motoSmart">
+
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Para la prueba-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.1/angular.js"></script>
+    <script src="https://rawgit.com/dwmkerr/angular-modal-service/master/dst/angular-modal-service.js"></script>
+
+    <!-- termina Para la prueba-->
+    <title>informacion</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular-route.min.js"></script>
+    <script src="controller.js"></script>
+    <script src="controllers/informacion/informacion.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/informacion.css">
+</head>
+
+<body class="fondo-informacion">
+
+    <div class="circle-cracks">
+        <div class="icons-craks">
+            <img class="img-cracks" src="img/Group 7592.svg">
+            <img class="unique-icon" src="img/Group 7572.svg">
+        </div>
+        <div class="contenedor-conocer-mas">
+            <h1 class="text-cracks">Conoce más aquí</h1>
+        </div>
+    </div>
+<!--Botón de este mes-->
+<section class="padding-section">
+    <div class="btn-mes">
+        <div id="btn-informacion" class="alinear-boton-menu"> 
+            <a id="h1-redenciones" class="h1-menu" ng-href="#!/informacion.html/informacion-mes"> Este mes</a>
+        </div>
+        <div id="btn-redenciones" class="alinear-boton-menu">
+            <a id="h1-informacion" class="h1-menu" ng-href="#!/informacion.html/informacion-todo"> Todo</a>
+        </div>
+    </div>
+</section>
+
+    
+</body>
+
+</html>

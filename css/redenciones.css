@@ -1,0 +1,96 @@
+.texto-referidos{
+    text-align: center;
+    color: #686E7F;
+  }
+  
+  .enlace{
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    margin: 66px 72px 10px 72px;
+    width: 77%;
+    height: 160px;
+    display: flex;
+    padding: 64px 10px 90px 10px;
+  }
+
+  .btn-invitar{
+    background-color: #FF7400;
+    color: #FFFFFF;
+    width: 80%;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+  }
+
+  .btn-mes{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-top-right-radius: 114px;
+    border-bottom-right-radius: 114px;
+    border-top-left-radius: 114px;
+    border-bottom-left-radius: 114px;
+    padding: 0px 10px 0px 10px;
+    color: #fefefe;
+  }
+
+   .contenedor-opciones{
+    padding: 70px;
+ }
+
+  #btn-por-redimir:hover{
+    border-bottom: solid #FF7400;
+    padding: 0px 10px 0px 10px;
+ 
+ }
+
+ .boton-{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+        padding: 27px;
+ }
+
+ #h1-redenciones:hover{
+    color: #FF7400;
+ }
+
+ .h1-menu:hover{
+    color: #fefefe;
+    font-size: 56px;
+    font-weight: normal;
+    
+ }
+
+ #btn-redimidos:hover{
+    border-bottom: solid #FF7400;
+    padding: 0px 10px 0px 10px;
+ }
+
+ #h1-informacion:hover{
+    color: white;
+ }
+
+ .btn-radius{
+    border-top-right-radius: 58px;
+    border-bottom-right-radius: 51px;
+    border-top-left-radius: 58px;
+    border-bottom-left-radius: 51px;
+    background-color: #ECEDF1;
+    color: #686E7F;
+    font-size: 37px;
+    margin-right: 39px;
+    padding: 32px 66px;
+    border: 1px solid #ECEDF1;
+}
+
+.fondo{
+    background-color: #F5F6F7;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    padding: 30px 40px 67px 35px;
+}

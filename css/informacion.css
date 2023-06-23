@@ -1,0 +1,174 @@
+.circle-cracks{
+    background-color: white;
+    border-radius: 50px;
+    /*padding: 88px 41px 36px 41px;*/
+    margin: 66px 72px 10px 72px;
+    border: 1px solid #686E7F;
+    /* background: linear-gradient(to bottom, white 70%, #ECEDF1 30%); */
+    box-shadow: -1px 8px 18px 2px rgba(0,0,0,0.51);
+-webkit-box-shadow: -1px 8px 18px 2px rgba(0,0,0,0.51);
+-moz-box-shadow: -1px 8px 18px 2px rgba(0,0,0,0.51);
+}
+
+.icons-craks{
+    display: flex;
+    justify-content: space-between;
+    padding: 45px 118px;
+}
+
+.img-cracks{
+    width: 200px;
+}
+
+.text-cracks{
+    text-align: center;
+    color:  #686E7F;
+}
+
+
+.fondo-informacion{
+    background-color: red;
+    width: 100%;
+    height: 1330px;
+}
+
+.rectangulo {
+  
+    background: linear-gradient(45deg, #FFD500, #FF2800); /* Degradado lineal */
+    border-radius: 50px;
+    padding: 88px 41px 36px 41px;
+    margin: 66px 72px 10px 72px;
+    width: 77%;
+    height: 160px;
+    display: flex;
+  }
+
+  .texto-referidos{
+    text-align: center;
+    color: #686E7F;
+  }
+
+  .img-moto{
+    width: 100%;
+  }
+
+  .btn-invitar{
+    background-color: #FF7400;
+    color: #FFFFFF;
+    width: 80%;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+  }
+
+  .enlace{
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    margin: 66px 72px 10px 72px;
+    width: 77%;
+    height: 160px;
+    display: flex;
+    padding: 64px 10px 90px 10px;
+  }
+
+  .contenedor-conocer-mas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ECEDF1;
+    border-bottom-left-radius: 52px;
+    border-bottom-right-radius: 52px;
+  }
+
+  .btn-mes{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-top-right-radius: 114px;
+    border-bottom-right-radius: 114px;
+    border-top-left-radius: 114px;
+    border-bottom-left-radius: 114px;
+    padding: 0px 10px 0px 10px;
+    color: #fefefe;
+  }
+
+  .padding-section{
+    padding: 70px;
+  }
+ 
+  #h1-informacion:hover{
+    color: #FF7400;
+ }
+
+ #h1-redenciones:hover{
+    color: #FF7400;
+ }
+
+ .h1-menu:hover{
+    
+    font-size: 56px;
+    font-weight: normal;
+    
+ }
+
+ a:link, a:visited, a:active {
+    text-decoration:none;
+ }
+
+ #btn-redenciones:hover{
+  
+    border-bottom: solid #FF7400;
+    padding: 20px 10px 0px 10px;
+ }
+
+ #btn-informacion:hover{
+  
+    border-bottom: solid #FF7400;
+  
+    padding: 20px 10px 0px 10px;
+ 
+ }
+
+
+  /* prueba */
+
+  /* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }

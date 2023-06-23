@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html ng-app="motoSmart">
+<head>
+    <meta charset="UTF-8">
+    <title>Referidos</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular-route.min.js"></script>
+    <script src="controller.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/referidos.css">
+</head>
+<body ng-controller="motoSmart" class="todo-fondo">
+<section class="encabezado">
+        <td class="menu-social">
+        <div>
+            <img  class="size-logo" src="img/MotoSmart5 1.svg">
+        </div>
+
+        <div class="icons-header">
+            <img class="unique-icon" src="img/Component 4.svg" >
+            <img class="unique-icon" src="img/Frame 8.svg" >
+            <img class="unique-icon" src="img/buscador prueba2.svg" >
+            <img class="unique-icon" style="width: 150px;" src="img/Group7901.svg">
+        </div>
+</section >
+
+<section class="fondo">
+    <button class="btn-radius">Perfil</button>
+    <button class="btn-radius">Ajustes</button>
+    <button class="btn-radius-referidos">Referidos</button>
+    <button class="btn-radius">Servicios</button>
+</section>
+
+    <section class="menu-referidos">
+        <div id="btn-informacion" class="alinear-boton-menu" ng-href="#!/informacion-mes">
+           <!--- <h1 id="h1-informacion" class="h1-menu" >Información</h1> -->
+            <a id="h1-informacion" class="h1-menu" ng-href="#!/informacion-mes"> Información</a>
+        </div>
+        <div id="btn-redenciones" class="alinear-boton-menu">
+            
+            <a id="h1-redenciones" class="h1-menu" ng-href="#!/redenciones-por-redimir"> Redenciones</a>
+        </div>
+        
+    </section>
+
+     <div>
+        <div ng-view=""></div> 
+      </div>
+    
+</body>
+
+
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Para la prueba-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.1/angular.js"></script>
+    <script src="https://rawgit.com/dwmkerr/angular-modal-service/master/dst/angular-modal-service.js"></script>
+
+    <!-- termina Para la prueba-->
+    <title>redenciones por redimir</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular-route.min.js"></script>
+    <script src="controller.js"></script>
+    <script src="controllers/informacion/informacion.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/redenciones-por-redimir.css">
+</head>
+
+<body>
+
+    <div class="contenedor-opciones">
+        <div class="btn-mes">
+            <div class="botton-redimir-naranja">
+                <a class="h1-redimir" ng-href="#!/redenciones.html/redenciones-por-redimir"> Por redimir</a>
+            </div>
+            <div class="botton-redimidos-blanco">
+                <a class="h1-redimidos" ng-href="#!/redenciones.html/redenciones-redimidos"> Redimidos</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="texto-referidos">
+        <h1 class="sin-puntos">¡Aún no tienes acumulados para redimir en MotoSmart</h1>
+    </div>
+
+
+    <div class="no-puntos">
+        <h1 class="mayo">Mayo</h1>
+        <h1 class="cop">COP: 0</h1>
+        <span class="periodo-redimir">Período a redimir: 01/05/2023 al 31/05/2023
+        </span>
+        <!-- <img src="img/credit-card-regular 1.svg"> -->
+        <div>
+            <button class="btn-redimir">Redimir</button>
+       </div>
+    </div>
+
+    <div>
+         <button class="btn-invitar">Invitar referidos</button>
+    </div>
+</body>
+
+</html>

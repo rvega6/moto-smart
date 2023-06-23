@@ -1,0 +1,127 @@
+
+.size-logo{
+    height: 70px;
+}
+
+
+.fondo{
+    background-color: #F5F6F7;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    padding: 30px 40px 67px 35px;
+}
+
+.encabezado{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F5F6F7;
+    padding: 34px 0px 25px 21px;
+}
+
+.btn-radius{
+    border-top-right-radius: 58px;
+    border-bottom-right-radius: 51px;
+    border-top-left-radius: 58px;
+    border-bottom-left-radius: 51px;
+    background-color: #ECEDF1;
+    color: #686E7F;
+    font-size: 27px;
+    margin-right: 39px;
+    padding: 32px 66px;
+    border: 1px solid #ECEDF1;
+}
+
+.btn-mes{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border-bottom: solid #FF7400;
+    border: 3px solid #FF7400;
+    border-radius: 114px;
+    padding: 0px 10px 0px 0px;
+  }
+
+.menu-referidos{
+    display: flex;
+    background-color: #ECEDF1;
+    justify-content: space-around;
+}
+
+.font-color{
+    color: #686E7F;
+    font-size: 16px;
+}
+
+.pruebaa{
+  border: 1px solid #ECEDF1;
+  border-radius: 10px;
+  width: 40px;
+  height: 40px;
+  background-color: #ECEDF1;
+}
+
+
+.prueba2{
+  margin-top: 11px;
+  text-align: center;
+  vertical-align: middle;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+
+.icons-header{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.unique-icon{
+    width: 70px;
+}
+
+#btn-informacion:hover{
+   border-bottom: solid #FF7400;
+
+}
+#btn-redenciones:hover{
+    border-bottom: solid #FF7400;
+ }
+
+#h1-informacion:hover{
+    color: #FF7400;
+    font-family: sans-serif;
+ }
+
+ #h1-redenciones:hover{
+    color: #FF7400;
+    padding-top: 21px;
+ }
+
+ .h1-menu{
+    font-size: 56px;
+    font-weight: normal;
+    color: #686E7F;
+ }
+
+ .alinear-boton-menu{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+        padding: 27px;
+ }
+
+ ::-webkit-scrollbar {display: none;}
+
+ .todo-fondo{
+    background-color: #F5F6F7;;
+ }
+
+ a:link, a:visited, a:active {
+    text-decoration:none;
+ }
